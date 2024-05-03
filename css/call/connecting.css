@@ -1,0 +1,45 @@
+#connecting-nav{
+    height: 60px;
+    background-color: green;
+}
+
+#connecting-nav > p:first-child{
+    height: 30px;
+    color: white;
+    padding: 5px 0px 0px 5px;
+}
+
+#connecting-nav > p:last-child{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 10px;
+}
+
+#connecting-btn{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+
+#connecting-btn #end-call{
+    width: 260px;
+    height: 36px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+#connecting-btn #end-call svg{
+    margin-right: 12px;
+}

@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 5501 ,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+      "enable": true,
+      "cert": "C:/E Disk/IDB/aws-connect/product/localhost.pem",
+      "key": "C:/E Disk/IDB/aws-connect/product/localhost.key",
+      "passphrase": "123456"
+    }
+  }
